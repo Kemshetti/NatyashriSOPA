@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Natyashri/Contact</title>
+    <link rel="stylesheet" href="contact.css">
+ <link rel="stylesheet" href="../css/style.css">
+
+ <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
+<script>
+function SubForm (){
+    $.ajax({
+        url:'https://api.apispreadsheets.com/data/mLU5EOR6bhbhI7wz/',
+        type:'post',
+        data:$("#myForm").serializeArray(),
+        success: function(){
+          alert("Form Data Submitted :)")
+        },
+        error: function(){
+          alert("There was an error :(")
+        }
+    });
+}
+</script>
+</head>
+<body>
+    <nav class="navbar  ">
+        <ul class="nav-list">
+          <div class="logo"><img src="../images/logo.jpeg" alt="logo"></div>
+          <li><a  href="../index.html">Home</a></li>
+          <li><a href="#about Us">About Us</a></li>
+          <li><a href="../workshops/workshop.html">Workshops</a></li>
+          <li><a href="../events/events.html">Events</a></li>
+          <li><a href="../bharatnatyam/bharatnatyam.html">About Bharatnatyam</a></li>
+          <li><a href="../guru/veena.html">Our Guru</a></li>
+          <li><a href="../off class/offline.html">offline classes</a></li>
+          <li><a href="../on class/online classess.html">Online Classess</a></li>
+          <li><a class="active"href="contact/contact.html">Contact Us</a></li>
+          <li><a href="../photos/photos.html">Gallery</a></li>
+        </ul>
+            
+          
+        
+       </nav>
+
+       
+        <form id="myForm">
+          <label>Full Name</label>
+          <br/>
+          <input name="full_name" />
+          <br/>
+          <label>Email</label>
+          <br/>
+          <input name="email" />
+          <br/>
+          <label>Age</label>
+          <br/>
+          <input type="radio" id="age" name="age" value="18-35" /> 18-35<br/>
+          <input type="radio" id="age" name="age" value="35+" /> 35+<br/>
+          <br/>
+          <label>Message</label>
+          <br/>
+          <textarea name="message">
+          </textarea>
+          <br/>
+         
+        </form>
+        <button  id="sub" onclick="SubForm()">Submit</button>
+        <br>
+        <br>
+        <section class="contact">
+          <div class="number">
+            <h2>CONTACT</h2> <br>
+            <H4>CONTACT PERSON: Vid.Veenashri Nimbargi <br> <br>
+              MOBILE: +91 9172890424 <br> <br>
+              EMAIL: veena.nimbargi@gmail.com <br> <br>
+              ADDRESS:28/L,Sindhu vihar ,Hindu colony, Jule solapur-413004 <br>
+            </H4>
+          </div>
+          <div class="side">
+            <h4>Alternate mobile: +91 6363825808 <br> <br>
+            Email: natyashrischoolofdance@gmail.com</h4>
+          </div>
+         </section>
+       
+      
+</body>
+</html>

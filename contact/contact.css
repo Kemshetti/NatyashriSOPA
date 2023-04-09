@@ -1,0 +1,16 @@
+#myForm{
+    height: 300px;
+    width: 200px;
+    display: block;
+    margin-left: 550px;
+    border: 2px solid black;
+    margin-top: 20px;
+font-size: medium;
+background-color: aquamarine;
+}
+#sub{
+margin-left: 620px;
+font: bold;
+font-size:large ;
+
+}

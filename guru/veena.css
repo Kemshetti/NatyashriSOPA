@@ -1,0 +1,57 @@
+.box-in{
+ border-radius: 20px;
+ height: 400px;
+ width: 800px;
+ margin: auto;
+ padding: 2px 4px;
+ border: 2px solid goldenrod;
+ background-color: rgb(181, 207, 247);
+ display: flex;
+ margin-top: 20px;
+}
+.vimg{
+   height: 300px;
+   width: 400px;
+   border: 2px solid black;
+   border-radius: 20px;
+   margin: 20px 40px;
+   margin-top: 50px;
+
+}
+#box{
+   background-color: rgb(181, 247, 225);
+
+}
+.box{
+   background-color: rgb(181, 247, 225);
+}
+#SMT{
+   margin-top: 10px;
+}
+
+.veena{
+   margin-top: 30px;
+}
+.photos{
+  
+  
+   
+  
+   margin: auto;
+ }
+ 
+ .p1{
+   height: 350px;
+   width: 400px;
+   border: 2px solid black;
+   border-radius: 20px;
+   display: inline;
+   margin: 30px;
+   margin-left: 150px;
+  
+    
+    
+ }
+
+
+
