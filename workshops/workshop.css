@@ -1,0 +1,167 @@
+.bk {
+    background: rgba(0, 0, 0, 0.7) url('../images/natraja photo.jpg');
+   height: 100%;
+   width: 100%;
+   background-attachment: fixed;
+   background-repeat: no-repeat;
+   background-size: cover;
+   position: fixed;
+   display: block;
+   
+}
+.sec {
+    
+    border: 5px solid goldenrod;
+    width: 350px;
+    height: 250px;
+    margin-left: 100px;
+    border-radius: 100%;
+    padding: 2px 4px;
+    background-color: rgb(248, 211, 143); 
+    font-style: oblique;
+    margin-top: 70px;
+    display: flow-root;
+    font-size: medium;
+}
+
+#hd {
+    margin-top: 45px;
+    margin-left: 80px;
+
+}
+
+.bt {
+    
+    border-radius: 100%;
+    padding: 2px 20px;
+    height: 70px;
+    width: 100px;
+    text-decoration: none;
+   margin-left: 50px;
+   margin-top: 25px;
+  color: yellow;
+   border: 2px solid black;
+}
+
+.li a:hover {
+    cursor: pointer;
+    padding: 2px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    color: darkgrey;
+
+}
+
+.on {
+    text-decoration: none;
+     font-style: italic;
+     color: black;
+     font: 500px;
+}
+
+.off {
+    text-decoration: none;
+    font-style: italic;
+    color: black;
+   
+}
+
+/*onworkshop*/
+#section {
+    background-color: rgb(160, 245, 143);
+}
+
+.photos {
+
+    margin-left: 100px;
+    background-color: rgb(160, 245, 143);
+    background-size: cover;
+}
+
+.images {
+    margin-left: 100px;
+
+
+}
+#hod{
+    margin-right: 20px;
+    margin: 10px 20px;
+    
+    color: black;
+}
+
+.img1 {
+    height: 500px;
+    width: 500px;
+    border: 2px solid black;
+    margin: 20px;
+    border-radius: 20px;
+
+}
+
+.vid {
+    margin: 10px;
+    height: 100%;
+    margin-left: 100px;
+    color: rgb(192, 230, 137);
+
+}
+
+.video1 {
+    height: 400px;
+    width: 500px;
+    border: 5px solid goldenrod;
+    margin: 2px 4px;
+}
+
+.video2 {
+    height: 400px;
+    width: 500px;
+    border: 5px solid goldenrod;
+    margin: 2px 4px;
+}
+
+/*offworkshop*/
+
+.foto {
+    background-color: rgb(192, 250, 177);
+    background-size: cover;
+    margin: auto;
+}
+.wk1{
+margin-left: 70px;
+}
+#l1{
+padding: 10px 20px;
+margin-left: 120px;
+}
+.imgo{
+margin-left: 150px;
+
+}
+
+.i1 {
+    height: 350px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-left: 20px;
+    margin: 10px;
+}
+.i2 {
+    height: 350px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20px;
+    margin: 10px;
+}
+#l11{
+    margin-left: 180px;
+}
+.wk2{
+margin-left: 70px;
+margin-top: 50px;
+}
+.image{
+margin-left: 150px;
+}
